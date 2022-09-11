@@ -1,0 +1,21 @@
+{{> welcomemenu id='login'}}
+<div class="ui centered card">
+
+
+<form class="ui raised stacked segment form" action="/authenticate" method="POST">
+  <h3 class="ui header"> Login To Your Weather Top Account</h3>
+  <div class="field">
+    <div class="ui pointing below large label">
+    <label>Your Email</label>
+    </div>
+      <input placeholder="Email" type="email" name="email">
+  </div>
+  <div class="field">
+    <div class="ui pointing below large label">
+    <label>Your Password</label>
+    </div>
+    <input type="password" name="password">
+  </div>
+  <button class="ui blue submit button">Login </button>
+</form>
+</div>

@@ -1,0 +1,13 @@
+{{#each stations}} {{!-- this creates a loop for each station--}}
+  <section class="ui segment">
+
+{{> stationpanel }}
+
+    <br>
+    <br>
+    <a href = "/station/{{sid}}" class = "ui icon button"> <i class=" black large folder open icon"></i> </a>  {{! link to view readings--}}
+    <br>
+    <br>
+    <a href = "/dashboard/deletestation/{{sid}}" class ="ui icon button"><i class=" red large trash alternate outline icon"></i> </a> {{! link to delete station--}}
+  </section>
+  {{/each}}

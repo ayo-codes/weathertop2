@@ -1,0 +1,36 @@
+{{> welcomemenu id="signup"}}
+<div class="ui centered card">
+
+  <form class="ui raised stacked segment form" action="/register" method="POST">
+    <h3 class="ui centered header">Signup Here to Weather Top</h3>
+    <div class="one field">
+      <div class="field">
+        <div class="ui pointing below large label">
+          <label>First Name</label>
+        </div>
+        <input placeholder="First Name" type="text" name="firstName">
+      </div>
+      <div class="field">
+        <div class="ui pointing below large label">
+          <label>Last Name</label>
+        </div>
+        <input placeholder="Last Name" type="text" name="lastName">
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui pointing below large label">
+        <label>Email</label>
+      </div>
+      <input placeholder="Email" type="email" name="email">
+    </div>
+    <div class="field">
+      <div class="ui pointing below large label">
+        <label>Password</label>
+      </div>
+      <input type="password" name="password">
+    </div>
+    <div class="center aligned button">
+      <button class="ui blue submit button">Submit</button>
+    </div>
+  </form>
+  </div>

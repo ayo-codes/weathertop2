@@ -1,0 +1,111 @@
+{
+  "stationCollection": [
+    {
+      "sid": "65f57510-313b-11ed-bb11-07afceb58fbb",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "sname": "Tramore",
+      "latitude": "52.1623500",
+      "longitude": "-7.1524400",
+      "readings": [
+        {
+          "rid": "eead7510-313b-11ed-bb11-07afceb58fbb",
+          "code": 800,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "windDirection": 220,
+          "pressure": 1001,
+          "date": "2021-01-19T20:07"
+        },
+        {
+          "rid": "0df67d90-313c-11ed-bb11-07afceb58fbb",
+          "code": 600,
+          "temperature": 6,
+          "windSpeed": 2,
+          "windDirection": 200,
+          "pressure": 1004,
+          "date": "2021-01-20T20:08"
+        },
+        {
+          "rid": "be27bee0-31b9-11ed-bf47-d17a077d836e",
+          "code": 400,
+          "temperature": 7,
+          "windSpeed": 4,
+          "windDirection": 300,
+          "pressure": 999,
+          "date": "2022-09-11T11:08"
+        }
+      ],
+      "code": 400,
+      "pressure": 999,
+      "windSpeed": 4,
+      "cToF": 44.6,
+      "degreesToCompass": "West North West",
+      "windChill": 6,
+      "tempC": 7,
+      "currentWeather": "Light Showers",
+      "windDirection": 300,
+      "windSpeedToBft": 1,
+      "icon": "cloud sun rain",
+      "maxTemp": 7,
+      "minTemp": 0.5,
+      "minWind": 2,
+      "maxWind": 4,
+      "maxPressure": 1004,
+      "minPressure": 999,
+      "tempTrend": "arrow circle up icon"
+    },
+    {
+      "sid": "885affd0-313b-11ed-bb11-07afceb58fbb",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "sname": "Dunmore",
+      "latitude": "52.1499994",
+      "longitude": "-6.9833294",
+      "readings": [
+        {
+          "rid": "a15a4580-313c-11ed-bb11-07afceb58fbb",
+          "code": 700,
+          "temperature": 8,
+          "windSpeed": 1,
+          "windDirection": 90,
+          "pressure": 1000,
+          "date": "2021-01-20T10:31"
+        },
+        {
+          "rid": "49a31f40-31a7-11ed-b06e-2f90a6b7c608",
+          "code": 200,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "windDirection": 120,
+          "pressure": 999,
+          "date": "2021-01-19T08:56"
+        },
+        {
+          "rid": "5f106820-31f6-11ed-8ffe-7d324638c7d3",
+          "code": 300,
+          "temperature": 5,
+          "windSpeed": 3,
+          "windDirection": 90,
+          "pressure": 1001,
+          "date": "2022-09-11T18:22"
+        }
+      ],
+      "code": 200,
+      "currentWeather": "Partial Clouds",
+      "pressure": 999,
+      "windSpeed": 3.5,
+      "cToF": 32.9,
+      "degreesToCompass": "East South East",
+      "windChill": -1,
+      "icon": "cloud sun",
+      "tempC": 0.5,
+      "windDirection": 120,
+      "windSpeedToBft": 1,
+      "maxTemp": 8,
+      "minTemp": 0.5,
+      "minWind": 1,
+      "maxWind": 3.5,
+      "maxPressure": 1000,
+      "minPressure": 999
+    }
+  ]
+}

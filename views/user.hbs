@@ -1,0 +1,48 @@
+{{> menu}}
+
+<section class ="ui center aligned middle aligned segment">
+  <h2 class="ui header"> </h2>
+<h4>
+  First Name : {{user.firstName}}
+</h4>
+  <h4>
+    Last Name : {{user.lastName}}
+  </h4>
+  <h4>
+    Email : {{user.email}}
+  </h4>
+  <h4>
+    UserId : {{user.uid}}
+  </h4>
+</section>
+
+
+<form class="ui stacked segment form" action="/user/updateuser/{{user.uid}}" method="POST">
+  <div class="three fields">
+    <div class="field">
+      <div class="ui pointing below large label">
+      <label>First Name</label>
+      </div>
+      <input placeholder="{{user.firstName}}" type="text" name="firstName" value="{{user.firstName}}">
+    </div>
+    <div class="field">
+      <div class="ui pointing below large label">
+      <label>Last Name</label>
+      </div>
+      <input placeholder="{{user.lastName}}" type="text" name="lastName" value="{{user.lastName}}">
+    </div>
+    <div class="field">
+      <div class="ui pointing below large label">
+      <label>Email</label>
+      </div>
+      <input placeholder="{{user.email}}" type="email" name="email" value="{{user.email}}">
+    </div>
+    <div class="field">
+      <div class="ui pointing below large label">
+      <label>Password</label>
+      </div>
+      <input placeholder="{{user.password}}" type="password" name="password" value="{{user.password}}">
+    </div>
+  </div>
+      <button class=" ui center aligned blue submit button">Update Your Profile</button>
+</form>

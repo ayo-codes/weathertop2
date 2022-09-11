@@ -1,0 +1,136 @@
+<section class="ui raised blue segment">
+
+  <div class="ui five raised blue stackable cards">
+
+    <div class="card"> <!-- weather station card-->
+      <div class=" icon">
+        <div class=" center aligned icon">
+          <i class="huge map marker alternate icon"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="center aligned text">
+          <div class="ui raised segment"><p><span class="ui big text">{{sname}}</span></p></div>
+        </div>
+      </div>
+
+      <div class="extra content"> <!-- creates the division between location name and coordinates-->
+        <div class=" center aligned text">
+          <h3>
+            Latitude: {{latitude}}
+            Longitude: {{longitude}}
+          </h3>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card"> <!-- weather report card-->
+      <div class="icon">
+        <div class="center aligned icon">
+          <i class=" massive {{icon}} icon"></i>
+        </div>
+      </div>
+      <div class="center aligned text">
+        <h1>{{currentWeather}}</h1>
+      </div>
+
+    </div>
+
+
+    <div class="card"> <!-- temperature card-->
+      <div class="icon">
+        <div class=" center aligned icon">
+          <i class="huge temperature low icon"></i>
+        </div>
+        <div class="right aligned icon">
+          <i class="huge {{tempTrend}} icon"></i>
+        </div>
+
+      </div>
+
+      <div class="content">
+        <div class="ui center aligned text">
+          <div class="ui raised segment"><p><span class="ui large text"> Temp
+          </span></p> </div>
+          <div class="ui raised segment"><p><span class="ui big text"> {{tempC}}&#8451; <br>
+            {{cToF}} &#8457;
+          </span></p>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="extra content">
+        <div class="ui center aligned text">
+          <h3>Max: {{maxTemp}} &#8451;<br>
+            Min: {{minTemp}} &#8451; </h3>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="card"> <!-- wind card-->
+      <div class="icon">
+        <div class="center aligned icon">
+          <i class="huge wind icon "></i>
+        </div>
+        <div class="right aligned icon">
+          <i class="huge {{windTrend}} icon"></i>
+        </div>
+      </div>
+      <div class="content">
+        <div class="ui center aligned text">
+          <div class="ui raised segment"><p><span class="ui large text"> Wind
+          </span></p></div>
+          <div class="ui raised segment"><p><span class="ui large text"> {{windSpeedToBft}}
+            Bft with <br> {{degreesToCompass}}ernly winds and <br> feels like {{windChill}} &#8451;
+          </span></p></div>
+
+        </div>
+
+      </div>
+
+      <div class="extra content">
+        <div class="ui center aligned text">
+          <h3>Max: {{maxWind}} Bft<br>
+            Min: {{minWind}} Bft </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"> <!-- pressure card-->
+      <div class="icon">
+        <div class="center aligned icon">
+          <i class="huge centos icon "></i>
+        </div>
+        <div class="right aligned icon">
+          <i class="huge {{pressureTrend}} icon"></i>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="ui center aligned text">
+          <div class="ui raised segment"><p><span class="ui large text"> Pressure
+          </span></p></div>
+          <div class="ui raised segment"><p><span class="ui large text"> {{pressure}} hpa
+          </span></p></div>
+
+        </div>
+
+      </div>
+
+      <div class="extra content">
+        <div class="ui center aligned text">
+          <h3>Max: {{maxPressure}} hpa<br>
+            Min: {{minPressure}} hpa </h3>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>

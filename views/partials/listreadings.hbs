@@ -1,0 +1,42 @@
+<table class="ui table">
+  <thead>
+  <tr>
+    <th> Date </th>
+    <th> Code </th>
+    <th> Temp </th>
+    <th> Wind Speed </th>
+    <th> Wind Direction </th>
+    <th> Pressure </th>
+    <th> Delete Reading </th>
+  </tr>
+  </thead>
+  <tbody>
+    {{#each station.readings}}
+    <tr>
+      <td>
+      <p> {{date}} </p>
+      </td>
+      <td>
+        <p> {{code}} </p>
+      </td>
+      <td>
+        <p>{{temperature}}</p>
+      </td>
+      <td>
+        <p> {{windSpeed}} </p>
+      </td>
+        <td>
+        <p> {{windDirection}} </p>
+      </td>
+      <td>
+        <p> {{pressure}} </p>
+      </td>
+      <td>
+        <a href = "/station/{{../station.sid}}/deletereading/{{rid}}" class="ui icon button">
+          <i class=" red large trash alternate outline icon"></i>
+        </a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
